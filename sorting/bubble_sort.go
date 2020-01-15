@@ -6,8 +6,6 @@ package main
 
 import "fmt"
 
-import "github.com/0xAX/go-algorithms"
-
 func main() {
 	arr := utils.RandArray(10)
 	fmt.Println("Initial array is:", arr)
