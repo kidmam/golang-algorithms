@@ -1,4 +1,4 @@
 # golang-algorithms
-Golang Algorithms
+Golang Algorithms.
 
 A collection of algorithms implemented in Go
