@@ -81,7 +81,7 @@ func makeHTTPServer() *http.Server {
 }
 
 func startHTTPServer() {
-	httpAddr := "127.0.0.1:4040"
+	httpAddr := "127.0.0.1:3000"
 	httpSrv := makeHTTPServer()
 	httpSrv.Addr = httpAddr
 	fmt.Printf("Visit http://%s/app/debug\n", httpAddr)
